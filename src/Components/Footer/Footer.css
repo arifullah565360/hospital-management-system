@@ -1,0 +1,17 @@
+.footer-container-left{
+    width: 40%;
+    margin: 40px;
+}
+.footer-container-right{
+    width: 40%;
+    margin: 40px;
+}
+.footer{
+    padding: 30px;
+    margin-left: 60px;
+    width:90%;
+    text-decoration: none;
+    background-color:#00984a;
+    display:flex;
+    color:azure
+}

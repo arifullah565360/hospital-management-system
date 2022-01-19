@@ -1,0 +1,11 @@
+.header-container {
+    height:400px;
+    position:relative;
+    background-image: url('../../images/benaerrr.jpg');
+    background-size: cover;
+    
+}
+.DoctorLogo img{
+    
+    border-radius: 20px;
+}

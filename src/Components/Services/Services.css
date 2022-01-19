@@ -1,0 +1,22 @@
+.Services-title{
+    margin-top:20px;
+    text-align: center;
+}
+.Services-Container{
+    display: flex;
+
+}
+.ReadMoreBtn{
+    border: none;
+    color: rgb(7, 110, 7)
+}
+.icon{
+  cursor: pointer;
+}
+.Services-Imaging h3{
+    color:rgba(5, 117, 5, 0.842);
+}
+.Services-Imaging{
+    margin: 30px;
+    width: 600px;
+}
