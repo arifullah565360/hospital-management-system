@@ -1,9 +1,9 @@
 import React from 'react';
 import './Ambulance.css';
 import Modal from 'react-modal';
-import picc from '../../images/Ambulance.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faWindowClose } from '@fortawesome/free-solid-svg-icons'
+import EmailContact from '../ContactFrom/EmailContact';
 
 
 const customStyles = {
@@ -31,13 +31,13 @@ const Ambulance = ({ modalIsOpen, closeModal }) => {
                 onRequestClose={closeModal}
                 style={customStyles}
                 contentLabel="Example Modal"
+            
             >
 
-                <button onClick={closeModal}><FontAwesomeIcon icon={faWindowClose} /></button>
+                
                 <div className="modall">
-                    <h2>Ambulance Service</h2>
-                    <img src={picc} alt="" />
-                    <h4>01221451225</h4>
+                    <button onClick={closeModal}><FontAwesomeIcon icon={faWindowClose} /></button>
+                    <EmailContact></EmailContact>
                 </div>
 
 

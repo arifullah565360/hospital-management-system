@@ -1,0 +1,12 @@
+.container-border{
+    padding: 0px;
+    margin-top: 50px;
+    height: 20%;
+    background:#00984a;
+    color: #fff;
+    /* background-image: url('../../images/istockphoto-1135100330-612x612.jpg');
+    background-size: cover; */
+}
+.container-border h1{
+    margin-top: "25px";
+}
